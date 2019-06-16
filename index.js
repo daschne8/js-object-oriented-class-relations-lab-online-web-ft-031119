@@ -4,7 +4,7 @@ class Driver{
   constructor(name){
     this.name = name
     this.id = ++driverId
-    trip.drivers.push(this)
+    store.drivers.push(this)
   }
 }
 let passengerId = 0
@@ -12,6 +12,6 @@ class Passenger{
   constructor(name){
     this.name = name
     this.id = ++passengerId
-    trip.passengers.push(this)
+    store.passengers.push(this)
   }
 }
