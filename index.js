@@ -1,3 +1,4 @@
+let trip = {drivers:[], passengers:[]}
 driverId = 0
 class Driver{
   constructer(name){
