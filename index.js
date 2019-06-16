@@ -5,3 +5,10 @@ class Driver{
     this.id = ++driverId
   }
 }
+passengerId = 0
+class Passenger{
+  constructer(name){
+    this.name = name
+    this.id = ++passengerId
+  }
+}
