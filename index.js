@@ -1,4 +1,4 @@
-driderId = 0
+driverId = 0
 class Driver{
   constructer(name){
     this.name = name
